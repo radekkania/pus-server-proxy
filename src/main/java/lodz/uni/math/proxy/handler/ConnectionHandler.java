@@ -11,7 +11,7 @@ public class ConnectionHandler extends AbstractWebSocketHandler {
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
         System.out.println("Connected with server");
         session.sendMessage(new TextMessage("Connected with server"));
-        //change
+        //change NNN
     }
 
     @Override
